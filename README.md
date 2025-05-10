@@ -23,8 +23,6 @@ La aplicación permite al usuario buscar y visualizar el clima actual de cualqui
 - 🔻 Temperatura mínima  
 - 🔺 Temperatura máxima  
 - 📍 Ubicación desde donde se obtiene la información  
-- ☁️ Descripción del estado del clima  
-- 🖼️ Icono representativo del clima
 
 > La validación de las respuestas de la API se realiza mediante **Zod**, y las peticiones HTTP se gestionan con **Axios**.
 
