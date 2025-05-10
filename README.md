@@ -1,31 +1,36 @@
-App del Clima 🌤️
+# 🌤️ App del Clima
 
-Este repositorio contiene una aplicación web de clima construida con React y TypeScript, que consume la API de OpenWeather para mostrar información meteorológica actualizada.
+Este repositorio contiene una aplicación web del clima construida con **React** y **TypeScript**, que consume la **API de OpenWeather** para mostrar información meteorológica actualizada de cualquier ciudad del mundo.
 
-🚀 Tecnologías
+---
 
-React
+## 🚀 Tecnologías utilizadas
 
-TypeScript
+- **React**
+- **TypeScript**
+- **CSS Modules**
+- **Zod** (validador de esquemas)
+- **Axios** (cliente HTTP)
+- **OpenWeather API**
 
-CSS Modules
+---
 
-Zod (validador de esquemas para TypeScript)
+## 📖 Descripción de la App
 
-Axios (cliente HTTP)
+La aplicación permite al usuario buscar y visualizar el clima actual de cualquier ciudad ingresada. Los datos mostrados incluyen:
 
-OpenWeather API
+- 🌡️ Temperatura actual  
+- 🔻 Temperatura mínima  
+- 🔺 Temperatura máxima  
+- 📍 Ubicación desde donde se obtiene la información  
+- ☁️ Descripción del estado del clima  
+- 🖼️ Icono representativo del clima
 
-📖 Descripción
+> La validación de las respuestas de la API se realiza mediante **Zod**, y las peticiones HTTP se gestionan con **Axios**.
 
-La app permite buscar el clima de cualquier ciudad alrededor del mundo. Muestra datos como:
+---
 
-Temperatura actual
+## 📌 Nota
+Asegúrate de configurar correctamente tu archivo `.env` con tu clave de OpenWeather para que la app funcione correctamente.
 
-Temperatura minima
-
-Temperatura maxima
-
-Lugar o Zona desde donde es tomada
-
-La validación de datos se realiza con Zod y las llamadas HTTP se gestionan con Axios.
+---
